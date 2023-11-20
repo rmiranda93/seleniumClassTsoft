@@ -17,8 +17,7 @@ public class WebElements {
 
         //Localizador (By) es una forma de localizar los elementos web de un sitio. Existen 8 estrategias de busqueda:
         // ID,className, Name, tagname, linktext, partialLinktext, xpath(Relativo/Absoluto),cssSelector
-
-        //By
+        
         By localizadorBtnHazteCliente = By.xpath("//button[contains(text(),'Hazte Cliente')]");
 
         //Elemento Web (Botón, txt, dropDownList, label, link, etc)
