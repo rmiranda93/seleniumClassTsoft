@@ -10,14 +10,12 @@ public class WebElements {
 
         //Instanciar objetos para emular el browser
         WebDriver driver = new ChromeDriver();
-
         driver.get("https://www.bci.cl/personas");
-
         Thread.sleep(2000);
 
         //Localizador (By) es una forma de localizar los elementos web de un sitio. Existen 8 estrategias de busqueda:
         // ID,className, Name, tagname, linktext, partialLinktext, xpath(Relativo/Absoluto),cssSelector
-        
+
         By localizadorBtnHazteCliente = By.xpath("//button[contains(text(),'Hazte Cliente')]");
 
         //Elemento Web (Botón, txt, dropDownList, label, link, etc)
@@ -87,8 +85,6 @@ public class WebElements {
         Thread.sleep(1000);
 
         driver.findElement(By.xpath("//button[contains(text(),'RETOMAR')]"));
-
-
 
 
 
