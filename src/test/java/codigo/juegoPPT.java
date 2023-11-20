@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-
+/*
 class juegoPPT {
     public static void main(String[] args) {
         String[] opciones = {"piedra", "papel", "tijera"};
@@ -42,4 +42,4 @@ class juegoPPT {
             System.out.println("La partida terminó en empate");
         }
     }
-}
+}*/
