@@ -15,8 +15,7 @@ public class WebElements {
 
         Thread.sleep(2000);
 
-        //Localizador (By) es una forma de localizar los elementos web de un sitio
-        //Existen 8 estrategias de busqueda:
+        //Localizador (By) es una forma de localizar los elementos web de un sitio. Existen 8 estrategias de busqueda:
         // ID,className, Name, tagname, linktext, partialLinktext, xpath(Relativo/Absoluto),cssSelector
 
         //By
